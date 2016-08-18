@@ -1,0 +1,281 @@
+/**{outline: 1px solid rgba(255,0,0,0.4)}*/
+button{
+	border-radius: 10px;
+}
+p{
+	font-family: 'Cookie', cursive;
+	font-size: 29px;
+}
+h1,h2,h3,h5,h6,a{
+	font-family: 'Kavoon', cursive;
+}
+/*body{
+	background-image: url("../img/fondo2.jpg");
+	background-size: contain;
+}*/
+.header{
+	padding: 6px;
+	display: block;
+	background-color: #E6EB4C;
+/*	margin-right: -110px;*/
+}/*
+.header a{
+	border-radius: 100%;
+	padding: 0 auto;
+}*/
+.header button{
+	position: relative;
+	background-color: #48321B;
+	border: solid #48321B;
+	margin-top: -8px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	width: 100px;
+	height: 50px;
+}
+.cafeteria a{
+	color: #fff;
+}
+.header img{
+	margin-top: 9px;
+	width: 35px;
+	height: 35px;
+}
+.text-bottom{
+
+}
+.menu{
+	list-style: none;
+	text-align: center;
+	/*background-color: #764E26;*/
+	background-color: #fff;
+	/*position: fixed;*/
+}
+.menu ul{
+	margin-left: -47px;
+}
+.menu li{
+	display: inline-block;
+	margin: 60px;
+}
+.menu a{
+	text-decoration: none;
+	color: #111;
+	border: 2.5px dotted #764E26;
+	padding: 15px;
+}
+.menu a:hover{
+	background-color: #48321B;
+	color: white;
+	border: 1px solid #48321B;
+}
+.menu img{
+	margin-top: 10px;
+	width: 180px;
+	height: 180px;
+}
+.conocenos{
+	text-align: center;
+	color: #48321B;
+	margin-top: -10px;
+	/*border: 3px solid #48321B;*/
+	font-size: 13px;
+	background-color:  #E6EB4C;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.cambio img{
+	width: 80px;
+	height: 80px;/*
+	opacity: 0.6;*/
+}
+.fam{
+	background: url("../img/fam.jpg") no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 8%;
+	margin-top: -65px;
+}
+.historia{
+	text-align: center;
+	background-color: #C5BA9F;
+	margin-top: -200px;
+	margin-top: 200px;
+	margin-left: 170px;
+	opacity: 0.8;
+}
+.slider{
+	margin-left: -15px;
+	width: 95%;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 600px;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+.cacao .texca{
+	/*padding: 20px;*/
+	margin-top: 15px;
+	margin-left: -90px;
+	background-color: #6E5127;
+	text-align:center;
+	color: white;
+}
+.cacao{
+	background-color: #6E5127; 
+}
+.productos h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.proco{
+	background-color: #C5BA9F;
+}
+.separa{
+	width: 500px;
+}
+.productos .choco{
+	height: 130px;
+	width: 130px;
+	display: inline-block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 30px;
+}
+.productos .textp{
+	background-color: #C5BA9F;
+	text-align: center;
+	font-size: 12px;
+}
+.productos .textp:hover{
+	background-color: #C5BA9F;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+	transition: 1s;
+}
+.productos .uno{
+	background-image: url("../img/nibs.jpg");
+}
+.productos .dos{
+	background-image: url("../img/tablas.jpg");
+}
+.productos .tres{
+	background-image: url("../img/trufa.jpg");
+}
+.productos .cuatro{
+	background-image: url("../img/barra.png");
+}
+.productos .cinco{
+	background-image: url("../img/brownie.jpg");
+}
+.productos .seis{
+	/*<--!falta vegan !>*/
+	background-image: url("../img/vegan.jpg");
+}
+.productos hr{
+	border: 1px solid black;
+	width: 80px;
+}
+.extras{
+	padding: 20px;	
+	background-color: #6E5127;
+}
+.serv{	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.serv h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.extras .text{
+	margin-top: 80px;
+	text-align: center;
+	border-radius: 7%;
+	color: #fff;
+}
+.carro img{
+	margin-top: 50px;
+	width: 500px;
+	height: 300px;
+	border-radius: 100%;	
+}
+.finca img{
+	margin-top: 50px;
+	width: 500px;
+	height: 300px;
+	border-radius: 100%;	
+}
+.matri img{
+	margin-top: 50px;
+	width: 500px;
+	height: 300px;
+	border-radius: 100%;	
+}
+.cultural img{
+	margin-top: 50px;	
+	margin-bottom: 50px;
+	width: 500px;
+	height: 300px;
+	border-radius: 100%;	
+}
+.mapa{
+	text-align: center;	
+	background-color: #E6EB4C;
+	background-size: contain;
+	padding: 25px 25px;/*
+	margin-left: 20px;*/
+	margin-top: -50px;	
+}
+.mapa .contact{/*
+	background-color:#6E5127;*/
+	width: 400px;
+	height: 130px;
+	margin-bottom: 30px;
+	color: #48321B;
+	opacity: 0.9;/*
+	padding: 5px;
+*/	border: 2px solid #fff;
+	box-shadow: 0 0 20px gray;
+}
+.contact .pie{
+	font-size: 15px;
+	font-family: 'Kavoon', cursive;
+}
+.mapa .deco{
+	width: 200px;
+}
+.final p {
+	text-align: center;
+}
+.final img{
+	width: 50px;
+	height: 50px;
+}
